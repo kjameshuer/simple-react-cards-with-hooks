@@ -26,8 +26,12 @@ it('shows the image of the person on the card__image class',()=>{
   expect(wrapped.find('.card__image').length).toEqual(1)
 })
 
-it('lists the persons first and last name on the .card__name class',()=>{
-  expect(wrapped.find('.card__name').text()).toEqual('anna vicente')
+it('lists the persons first name on the .card__name_first class',()=>{
+  expect(wrapped.find('.card__name_first').text()).toEqual('anna')
+})
+
+it('lists the persons last name on the .card__name_last class',()=>{
+  expect(wrapped.find('.card__name_last').text()).toEqual('vicente')
 })
 
 it('lists the persons city and state on the .card__location class',()=>{
