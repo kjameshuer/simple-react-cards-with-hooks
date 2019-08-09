@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: row;
 }
 
 .App-logo {
@@ -22,21 +24,6 @@
 .App-link {
   color: #61dafb;
 }
-
-.people_list{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.card{
-  box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
-  min-width: 25%;
-  margin: 20px;
-}
-
 
 @keyframes App-logo-spin {
   from {

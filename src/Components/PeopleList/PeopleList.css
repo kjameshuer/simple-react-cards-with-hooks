@@ -1,0 +1,13 @@
+.people_list{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: scroll;
+    width: 33%;
+    position: relative;
+    min-width: 380px;
+}
+
+.people_list__title{
+     width: 100%;
+}
